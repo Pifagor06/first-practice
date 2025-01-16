@@ -1,0 +1,31 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# If you are using environments like virtualenv, pipenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# If you are using PyCharm for development
+.idea/
+
+# If you are using VS Code for development
+.vscode/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore macOS specific files
+.DS_Store
+# Ignoring the django_cache directory
+django_cache/
